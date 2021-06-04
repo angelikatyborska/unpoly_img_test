@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://unpkg.com/unpoly@1.0.0/dist/unpoly.min.js" integrity="sha384-ytJc9iP/TqsU3lNuDL7f9+s6s6okr3iD1TnXQBigaJIY9Ew3zACbVfa96VtkpMs+" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/unpoly@1.0.0/dist/unpoly.min.css" integrity="sha384-Au6LjS9fxDpwn3+26YmukmOumZUmryd8ONenkVIoH4eEPH1tACqLsVfqz9tBrvQy" crossorigin="anonymous">
+  <title>Unpoly test</title>
+  <script src="script.js"></script>
+  <style>
+  html, body { margin: 0 }
+
+  img {
+    display: block;
+    width: 50vw;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+  <h1>page 2 with srcset</h1>
+  <a href="/with_srcset/page1.html" up-dash="body">page 1</a>
+
+  <img
+    src="https://via.placeholder.com/800x800/0044FF/000000.png"
+    sizes="50vw"
+    srcset="https://via.placeholder.com/500x500/00FF00/000000.png 500w, https://via.placeholder.com/800x800/0044FF/000000.png 800w, https://via.placeholder.com/1000x1000/0000FF/000000.png 1000w"
+  />
+
+  <footer>some footer</footer>
+</body>
+<html>
