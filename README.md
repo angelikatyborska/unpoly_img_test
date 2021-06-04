@@ -4,7 +4,7 @@ This repository is the simplest project necessary to reproduce a bug that happen
 
 This only happens to images with a `srcset` attribute. Images without a `srcset` attribute are not affected.
 
-When navigating with Unpoly (e.g. using links with the attribute `up-dash="body"`), images with a `srcset` attribute either do not show up at all in macOS Safari.
+When navigating with Unpoly (e.g. using links with the attribute `up-dash="body"`), images with a `srcset` attribute do not show up at all in macOS Safari.
 
 ## Expected behavior (Firefox)
 
